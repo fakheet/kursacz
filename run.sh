@@ -1,0 +1,3 @@
+alacritty &
+disown
+exit

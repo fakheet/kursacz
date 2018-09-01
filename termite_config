@@ -1,0 +1,245 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+;font = Office Code Pro Medium 10
+;font = Inconsolata 12
+font = Topaz-8 10
+;font = Fira Mono Medium 10
+;font = Consolas 10
+#font = xos4 Terminus 16px
+scrollback_lines = 10000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# Embers Dark Custom
+## special
+#foreground      = #a39a90
+#foreground_bold = #a39a90
+#cursor          = #a39a90
+#background      = #16130f
+
+## black
+#color0  = #16130f
+#color8  = #5a5047
+
+## red
+#color1  = #826d57
+#color9  = #5c5039
+
+## green
+#color2  = #57826d
+#color10 = #395c50
+
+## yellow
+#color3  = #6d8257
+#color11 = #395c39
+
+## blue
+#color4  = #6d5782
+#color12 = #45395c
+
+## magenta
+#color5  = #82576d
+#color13 = #5c3945
+
+## cyan
+#color6  = #576d82
+#color14 = #39455c
+
+## white
+#color7  = #a39a90
+#color15 = #dbd6d1
+
+# special
+[colors]
+
+# special
+foreground      = #6e6b5e
+foreground_bold = #6e6b5e
+cursor          = #6e6b5e
+background      = #fefbec
+
+# black
+color0  = #20201d
+color8  = #7d7a68
+
+# red
+color1  = #d73737
+color9  = #d73737
+
+# green
+color2  = #60ac39
+color10 = #60ac39
+
+# yellow
+color3  = #cfb017
+color11 = #cfb017
+
+# blue
+color4  = #6684e1
+color12 = #6684e1
+
+# magenta
+color5  = #b854d4
+color13 = #b854d4
+
+# cyan
+color6  = #1fad83
+color14 = #1fad83
+
+# white
+color7  = #a6a28c
+color15 = #fefbec
+
+# Theme: Sweet Love
+#[colors]
+## special
+#foreground      = #c0b18b
+#foreground_bold = #c0b18b
+#cursor          = #c0b18b
+#background      = #1f1f1f
+#
+## black
+#color0  = #4a3637
+#color8  = #402e2e
+#
+## red
+#color1  = #d17b49
+#color9  = #ac5d2f
+#
+## green
+#color2  = #7b8748
+#color10 = #647035
+#
+## yellow
+#color3  = #af865a
+#color11 = #8f6840
+#
+## blue
+#color4  = #535c5c
+#color12 = #444b4b
+#
+## magenta
+#color5  = #775759
+#color13 = #614445
+#
+## cyan
+#color6  = #6d715e
+#color14 = #585c49
+#
+## white
+#color7  = #c0b18b
+#color15 = #978965
+
+
+## Theme: atelierheath.dark
+#[colors]
+## special
+#foreground      = #ab9bab
+#foreground_bold = #ab9bab
+#cursor          = #ab9bab
+#background      = #1b181b
+#
+## black
+#color0  = #1b181b
+#color8  = #776977
+#
+## red
+#color1  = #ca402b
+#color9  = #ca402b
+#
+## green
+#color2  = #379a37
+#color10 = #379a37
+#
+## yellow
+#color3  = #bb8a35
+#color11 = #bb8a35
+#
+## blue
+#color4  = #516aec
+#color12 = #516aec
+#
+## magenta
+#color5  = #7b59c0
+#color13 = #7b59c0
+#
+## cyan
+#color6  = #159393
+#color14 = #159393
+#
+## white
+#color7  = #ab9bab
+#color15 = #f7f3f7
+
+#[colors]
+## Theme: default
+##cursor = #dcdccc
+##cursor_foreground = #dcdccc
+#foreground = #dcdccc
+#foreground_bold = #ffffff
+#background = #000000
+##background = #101010
+##background = #3f3f3f
+#
+## 20% background transparency (requires a compositor)
+##background = rgba(63, 63, 63, 0.8)
+#
+## if unset, will reverse foreground and background
+#highlight = #2f2f2f
+#
+## colors from color0 to color254 can be set
+#color0 = #3f3f3f
+#color1 = #705050
+#color2 = #60b48a
+#color3 = #dfaf8f
+#color4 = #506070
+#color5 = #dc8cc3
+#color6 = #8cd0d3
+#color7 = #dcdccc
+#color8 = #709080
+#color9 = #dca3a3
+#color10 = #c3bf9f
+#color11 = #f0dfaf
+#color12 = #94bff3
+#color13 = #ec93d3
+#color14 = #93e0e3
+#color15 = #ffffff
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
